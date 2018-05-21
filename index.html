@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dky's website miku</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<!--aduio preload-->
+<audio id="myAudio1">
+  
+  <source src="mp3/初音ミク - 朧月.mp3" type="audio/mpeg">
+   
+</audio>
+	<audio id="myAudio2">
+  
+  <source src="mp3/初音ミク - 深海少女.mp3" type="audio/mpeg">
+  
+</audio>
+		<audio id="myAudio3">
+  
+  <source src="mp3/ShakingHigh,れをる,初音ミク - reol - No title（三人双声道／ShakingHigh Remix）.mp3" type="audio/mpeg">
+ 
+</audio>
+	
+	
+	
+	
+	<!--jquery-->
+<script src="js/jquery.1.7.1.min.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="index.html">
+    <h2 class="logo"><strong>miku</strong></h2>
+  </a>
+    <nav>
+      <ul>
+	  <div class=dropdown-main>  
+         <li><a href="index.html">主页</a></li>
+        <li> <a href="welcome.html">welcome</a></li>
+		  <li><a href="about.html" target="iframe_main">关于</a></li>
+		   <li><a href="art.html" target="iframe_main">绘画游戏</a></li>
+
+	<div class="dropdown">
+  <button class="dropbtn">mmd欣赏</button>
+  <div class="dropdown-content">
+    <a href="web/video_miku-BoomClap 2.0【2K_60fps】.html" target="iframe_main">大佬的BoomClap</a>
+    <a href="web/Redial_miku.html" target="iframe_main">网上有名的MV</a>
+    <a href="web/classic_miku.html" target="iframe_main">公主装MIKU的CLASSIC</a>
+  </div>
+		 </div>
+
+	  <div class="dropdown2">
+  <button class="dropbtn2">图片欣赏</button>
+  <div class="dropdown2-content">
+    <a href="web/Hatsune Miku_gao.html" target="iframe_main">高老师的头像那只</a>
+    <a href="web/snow_miku.html" target="iframe_main">雪花MIKU</a>
+    <a href="web/sea_miku.html" target="iframe_main">海洋MIKU</a>
+  </div>
+		  </div>
+
+ <div class="dropdown3">
+  <button class="dropbtn3">音乐欣赏</button>
+  <div class="dropdown3-content">
+    <a href="javascript:playAudio1();">朧月</a>
+    <a href="javascript:playAudio2();">深海少女</a>
+    
+	  <a href="javascript:playAudio3();">reol</a>
+	  <a href="javascript:pauseAudioall();">停止</a>
+  </div>
+
+</div>
+
+</div >    
+
+	
+		 
+		 
+		 
+		 </ul>
+    </nav>
+  </header>
+  <!-- Hero Section -->
+  <div align="center">
+		<iframe src="welcome_null.html" name="iframe_main"
+			frameborder="0"
+			height="700px"
+			width="100%"
+		id="iframe_main-id"
+				> </iframe>
+	  </div>
+		   
+<!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+    <p class="text_column">初音未来（初音ミク/Hatsune Miku），是2007年8月31日由CRYPTON FUTURE MEDIA以Yamaha的VOCALOID系列语音合成程序为基础开发的音源库，音源数据资料采样于日本声优藤田咲。
+2010年4月30日，发布初音未来6种不同声调的版本“初音未来Append”。2013年8月31日，初音未来英文版本同VOCALOID3一并发行。此外，初音未来还担任日本音乐团体Sound Horizon的演唱与合唱。随着“初音未来”声库的发售，这种成功的营销方式大幅改变了电子音乐人对于音乐业的认知和整个行业的格局。在衍生文化现象后，初音未来可指代包装封面上的那位葱色头发的少女形象，还可指活跃在动画漫画中出现的“人气歌手”。 事实上和网友理解的不同，初音未来是Crypton Future Media以Yamaha的VOCALOID语音合成引擎为基础，音源样本由声优藤田咲提供，开发贩售的语音合成软件的声源之一及其拟人化形象。简单的说，她是一款软件，类似于Photoshop，只不过PS是处理图像的软件而她是可以发出人声的软件。
+
+可以简单的理解初音是一个乐器，和其他乐器一样都是发声的，但是乐器是伴奏，而她是发出的是人声。
+	  </p>
+    <p class="text_column">
+我个人认为，对于初音未来的解读，网络上无出上述视频其右：Everyone, Creator 每个人都是创作者对音乐充满热情的业余作曲者，将自己的旋律倾注在她身上，通过她寻找知音。对绘画充满热情的业余编舞者，将自己的设计倾注在她身上，通过她创作形象。对舞蹈充满热情的业余编舞者，将自己的编排倾注在她身上，通过她演绎创意。喜欢跳舞唱歌的业余舞见唱见，将自己的才能倾注在她身上，通过她表达自我。而如我这样没有才能但愿意被他们感染的人，创造了初音未来的受众。商业上，初音未来作为一个平台，既挖掘了生产者也创造了消费者，她是成功的。艺术上，初音未来作为一个平台，既挖掘了创作者也发现了欣赏者，她是成功的。在自由授权的许可下，音乐和绘画的门槛降到了低点，才能不再因为无财力而埋没，受众不再因为无推广而无法形成市场。最终每一个人都参与了创作，每一个人都是创作者，因此每一个人都通过初音未来这个平台将自己最为美好的梦与想象赋予了这个虚拟歌手工具。于是每一个作者的才华，凝结成了初音未来的才华，她能飙高能飚速能婉约能悲切，她能跳出美妙的舞蹈，她有着百变的造型，最终又进一步受到不同人的认同，不断地累积，形成了现在的样子。
+
+ </p>
+    <p class="text_column">“MikumikuDance”（简称mmd）原本最初只是作为让初音未来的3D模型自由舞蹈的简易3D动画软件，却没想到就在不经意之间创造出了一个神话。事实上说它神真的一点都不夸张，自从2008年2月24日樋口优在其个人网站VPVP(Vocaloid Promotion Video Project)中免费公开以来，这个小小的软件已经一步登天，不仅带动了一连串的3D动画制作产业链，还顺便成为了平民3D软件的救世主。通过这套软件，就连未曾接触过3D动画的新人都能够简单地制作出真正的3D动画。MMD的出现，完全革新了人们认为想要制作3D动画就必须成为专业人士的固有观念，自公布之后就在网络上形成了热潮，下载数量在公开一个月之后就超过了11万，用这个软件制作出的3D动画，至今在"NICONICO动画"上的投稿已经超过了几十万万，在国内的A站、B站也有数不清的自制MMD投稿。除此之外，还有不少人使用MMD用于商业动画制作、将MMD中的模型运用在广告宣传、甚至还有学校专门立项来研究MMD的文化。
+
+ </p>
+  </section>
+  <!-- Stats Gallery Section -->
+ 
+  
+  <!-- Parallax Section -->
+  <section class="banner">
+    
+  </section>
+  <!-- More Info Section -->
+  <footer>
+    <article class="footer_column">
+      <h3>旧版服饰</h3>
+      <img src="images/Hatsune.Miku.full.2020130.jpg" alt="" width="500" height="700" class="cards"/>
+      <p> 初音未来 V2 版本的官方设定形象为蓝绿色双马尾，由画师KEI所创作。衣服和机械部分以Yamaha于1983年发售的DX7合成器为蓝本。左臂皮肤上的红色“01”字样的设定是一个QR码（即二维码，随着DIVA系列对MIKU服装的补充。01字样的LOGO也会按照所设计服装的特点移至相应位置或者取消掉。），衣服的原设计则是水手服，但CRYPTON觉得不够好而转为现在的衣服设计。
+</p>
+    </article>
+    <article class="footer_column">
+      <h3>新版服饰</h3>
+      <img src="images/Hatsune_miku_v4x.png" alt="" width="500" height="700" class="cards"/>
+      <p>升级版初音未来 APPEND的官方设定形象由模型师浅井真纪所创作。服装整体采用了更为科幻感的造型。延续了双马尾的设定，无耳机，发色相比V2版本较为偏绿，两袖的由原来的宽袖变更为紧身式的窄袖，左臂01的LOGO概念予以保留，胸前的领带改为内嵌在紧身上衣中的设定（DIVA版直接嵌合进了衣服里）；裙子由V2的短款百褶裙变更为由上衣延伸出的衣摆以及由腰部的科幻感挂饰和其延伸出的挂件共同构成，腰后部挂件有延伸出尾巴形状的黑色缆线（DIVA版的APPEND无此设计），左脚脚踝处有“Crypton”logo字样的白色脚环。 </p>
+    </article>
+  </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+     <div class="button" onClick="javascript:window.scrollTo( 0, 0 );" >返回顶部
+	 
+    </div>
+  </section>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2018 - <strong>DKYMORE</strong></div>
+</div>
+	<script>
+	var x = document.getElementById("myAudio1"); 
+
+function playAudio1()
+{ 
+      y.pause();
+	  z.pause();  
+	x.play(); 
+} 
+
+var y = document.getElementById("myAudio2"); 
+
+function playAudio2()
+{ 
+	 x.pause(); 
+      
+	  z.pause();  
+	y.play(); 
+} 
+
+var z = document.getElementById("myAudio3"); 
+
+function playAudio3()
+{ 
+	 x.pause(); 
+      y.pause(); 
+	z.play(); 
+} 
+
+function pauseAudioall()
+{ 
+	  x.pause(); 
+      y.pause();
+	  z.pause();
+      z.load();
+      x.load();
+	  y.load();
+} 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</script>
+	<!-- Main Container Ends -->
+</body>
+</html>

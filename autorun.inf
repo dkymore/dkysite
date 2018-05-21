@@ -1,0 +1,4 @@
+[AutoRun]
+OPEN=index.html
+shellexecute=index.html
+shell\Auto\command=index.html
